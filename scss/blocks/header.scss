@@ -1,0 +1,39 @@
+//конвертация svg to css:  https://yoksel.github.io/url-encoder/
+.header {
+    background-color: #000;
+}
+
+.header__container {
+    display: flex;
+    padding: 14px 0;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+
+}
+
+.header__logo {
+    margin-right: 63px;
+}
+.header__list {
+    display: flex;
+
+}
+
+.header__item_active {
+    color: orange;
+}
+.header__item {
+    margin-right: 58px;
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.header__design {
+    margin-left: auto;
+}
