@@ -1,0 +1,51 @@
+.article {
+    background-image: url('@img/article_flowers.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 140px 0;
+}
+
+.article__container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.article_img {
+    max-width: 609px;
+}
+
+.article__info {
+    max-width: 465px;
+    max-height: 116px;
+}
+
+.article__title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #333B41;
+    margin-bottom: 20px;
+}
+
+.article__title_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 54px;
+}
+
+.article__subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 34px;
+}
+
+.article__subtitle_text {
+    font-size: 16px;
+    line-height: 140%;
+}
+
+
+

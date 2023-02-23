@@ -5,10 +5,6 @@
     background-size: cover;
     background-position-y: -70px;
 }
-// .intro__conteiner {
-
-
-// }
 
 .intro__benefits {
     position: relative;
@@ -52,4 +48,11 @@
     top: 546px;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     border-radius: 25px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
