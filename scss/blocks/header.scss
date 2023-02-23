@@ -25,12 +25,16 @@
 }
 
 .header__item_active {
-    color: orange;
+    color: #F9804B;
 }
 .header__item {
     margin-right: 58px;
+    transition:  color .2s ease;
     &:last-child {
         margin-right: 0;
+    }
+    &:hover {
+        color: #F9804B;
     }
 }
 

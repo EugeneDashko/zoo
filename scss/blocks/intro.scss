@@ -46,13 +46,23 @@
     height: 54px;
     left: calc(50% - 298px/2 + 332px);
     top: 546px;
-    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    background-color: #F9804B;
+    transition: all 500ms ease;
     border-radius: 25px;
-
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+        &:hover {
+            background-color: #E47209;
+        }
+        &:active {
+            background-color: #4B9200;
+            transform: translate(2px,3px);
+        }
+        &:disabled:hover {
+            background-color: #767474;
+        }
 }
