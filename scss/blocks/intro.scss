@@ -39,13 +39,15 @@
 .intro__title_text-orange {
     color: #FFEE2E;
 }
-
-.intro__button {
+.intro__button  {
     position: absolute;
-    width: 298px;
-    height: 54px;
     left: calc(50% - 298px/2 + 332px);
     top: 546px;
+}
+.button_cycle {
+
+    width: 298px;
+    height: 54px;
     background-color: #F9804B;
     transition: all 500ms ease;
     border-radius: 25px;
