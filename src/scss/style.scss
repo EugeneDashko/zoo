@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    width: 1600px;
+    // width: 1600px;
     margin: 0 auto;
     background-color: #fff;
     font-family: 'Roboto', sans-serif; // используем подключенный шрифт
@@ -25,6 +25,7 @@ body {
 @import "blocks/intro";
 @import "blocks/article";
 @import "blocks/cards";
+@import "blocks/section";
 
 
 // @import "mediaQueries";
