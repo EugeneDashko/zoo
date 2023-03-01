@@ -9,18 +9,52 @@
     justify-content: space-between;
 }
 
+.footer__column1 {
+    margin-top: 40px;
+}
+
+.footer__logo {
+    margin-bottom: 68px;
+}
+
 .footer__column2 {
     align-self: flex-end;
 }
 
 .testimonials__button {
     display: inline-block;
-    margin: 0;
+    margin-bottom: 44px;
 }
 .social__list {
-    // display: flex;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 
 }
+.social__item {
+    min-height: 26px;
+    padding-left: 38px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+
+.social__item_facebook {
+    background-image: url('@img/soc_face 1.png');
+}
+.social__item_twitter {
+    background-image: url('@img/soc_twit.png');
+}
+.social__item_instagram {
+    background-image: url('@img/soc_ist.png');
+}
+.social__item_youtube {
+    background-image: url('@img/soc_you.png');
+}
+
 
 .footer__list {
     display: flex;
