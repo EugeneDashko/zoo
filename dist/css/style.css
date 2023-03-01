@@ -801,18 +801,16 @@ body {
 
 .testimonials__list {
   display: flex;
-  justify-content: space-around;
-  width: 1160px;
-  min-height: 400px;
-  margin: 0 auto;
+  column-gap: 30px;
   margin-bottom: 60px;
   overflow-x: auto;
+  padding-bottom: 2px;
 }
 
 .testimonials__item {
   position: relative;
-  width: 268px;
-  height: 392px;
+  min-width: 263px;
+  min-height: 391px;
   background: #F1F3F2;
   border-radius: 20px;
   margin-left: 2px;
@@ -853,7 +851,7 @@ body {
   color: #BDBDBD;
 }
 
-.testimonials__item_text {
+.testimonials__title_about {
   padding: 0 15px 19px 16px;
   font-weight: 300;
   font-size: 15px;
