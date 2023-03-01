@@ -785,6 +785,12 @@ body {
   margin: 0 auto;
 }
 
+.testimonials {
+  background-image: url("../img/testimonials_bg.png");
+  background-repeat: no-repeat;
+  background-position: right 0 bottom -130px;
+}
+
 .testimonials__conteiner {
   margin-top: 140px;
 }
@@ -802,9 +808,22 @@ body {
 .testimonials__list {
   display: flex;
   column-gap: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 31px;
   overflow-x: auto;
   padding-bottom: 2px;
+  padding-bottom: 22px;
+}
+.testimonials__list::-webkit-scrollbar {
+  height: 8px;
+  border-radius: 5px;
+}
+.testimonials__list::-webkit-scrollbar-thumb {
+  background-color: #FE9013;
+  border-radius: 5px;
+  border: 1px solid #F5F7F6;
+}
+.testimonials__list::-webkit-scrollbar-track {
+  background-color: #F5F7F6;
 }
 
 .testimonials__item {
@@ -828,7 +847,43 @@ body {
   z-index: -1;
 }
 
-.testimonials__item_title-info {
+.testimonials__item_title-user1 {
+  padding-left: 63px;
+  padding-top: 15px;
+  background-image: url("../img/testimonials__icon_1.png");
+  background-repeat: no-repeat;
+  background-position: 15px 15px;
+  padding-bottom: 10px;
+}
+
+.testimonials__item_title-user2 {
+  padding-left: 63px;
+  padding-top: 15px;
+  background-image: url("../img/testimonials__icon_2.png");
+  background-repeat: no-repeat;
+  background-position: 15px 15px;
+  padding-bottom: 10px;
+}
+
+.testimonials__item_title-user3 {
+  padding-left: 63px;
+  padding-top: 15px;
+  background-image: url("../img/testimonials__icon_3.png");
+  background-repeat: no-repeat;
+  background-position: 15px 15px;
+  padding-bottom: 10px;
+}
+
+.testimonials__item_title-user4 {
+  padding-left: 63px;
+  padding-top: 15px;
+  background-image: url("../img/testimonials__icon_4.png");
+  background-repeat: no-repeat;
+  background-position: 15px 15px;
+  padding-bottom: 10px;
+}
+
+.testimonials__item_title-user5 {
   padding-left: 63px;
   padding-top: 15px;
   background-image: url("../img/testimonials__icon_1.png");
@@ -857,4 +912,38 @@ body {
   font-size: 15px;
   line-height: 120%;
   color: #767474;
+}
+
+.testimonials__button_wrapper {
+  display: inline-block;
+  margin-bottom: 180px;
+}
+
+.testimonials__button {
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #000;
+  height: 434px;
+  color: #fff;
+}
+
+.footer__conteiner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column2 {
+  align-self: flex-end;
+}
+
+.testimonials__button {
+  display: inline-block;
+  margin: 0;
+}
+
+.footer__list {
+  display: flex;
+  column-gap: 58px;
 }

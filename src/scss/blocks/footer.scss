@@ -1,0 +1,29 @@
+.footer {
+    background-color: #000;
+    height: 434px;
+    color: #fff;
+}
+
+.footer__conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__column2 {
+    align-self: flex-end;
+}
+
+.testimonials__button {
+    display: inline-block;
+    margin: 0;
+}
+.social__list {
+    // display: flex;
+
+}
+
+.footer__list {
+    display: flex;
+    column-gap: 58px;
+
+}
