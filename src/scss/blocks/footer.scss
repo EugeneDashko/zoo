@@ -101,22 +101,41 @@ fieldset {
     border: 0.7px solid #F9804B;
     border-radius: 5px;
     background-color: transparent;
+    outline: none;
         &::placeholder {
             font-weight: 400;
             font-size: 16px;
             color: #BDBDBD;
             padding-left: 10px;
         }
+
+        &:focus {
+            border-color: transparent;
+            outline: 0.7px solid #4B9200;
+        }
+
     
 }
 
-.footer_submit {
+.footer__submit {
+    transition: all 500ms ease;
     background-color:#F1F3F2;
-    border: 1px solid #4B9200;
+    border: 1px solid #333B41;
     border-radius: 5px;
     width: 129px;
     height: 42px;
-    color: #4B9200;
+    color: #333B41;
+        &:hover {
+            
+        }
+        &:active {
+            color: #4B9200;
+            border: 1px solid #4B9200;
+            transform: translate(1px,1px);
+        }
+        &:disabled:hover {
+            background-color: #767474;
+        }
 }
 
 .footer__development {

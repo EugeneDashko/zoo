@@ -21,15 +21,35 @@
 .cards__arrow_right {
     z-index: 1;
     position: absolute;
-    top: 40%;
+    top: 39%;
     right: -82px;
+        &:hover {
+                
+        }
+        &:active {
+            color: #4B9200;
+            border: 1px solid #4B9200;
+        }
+        &:disabled:hover {
+            background-color: #767474;
+        }
 }
 
 .cards__arrow_left {
     z-index: 1;
     position: absolute;
-    top: 40%;
+    top: 39%;
     left: -82px;
+    &:hover {
+                
+    }
+    &:active {
+        color: #4B9200;
+        border: 1px solid #4B9200;
+    }
+    &:disabled:hover {
+        background-color: #767474;
+    }
 }
 
 
@@ -49,11 +69,6 @@
     border-radius: 5px;
     grid-column: span 2;
 }
-
-
-
-
-
 
 .card__item_img-animal {
     border-radius: 5px;
