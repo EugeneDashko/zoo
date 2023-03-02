@@ -23,16 +23,7 @@
     position: absolute;
     top: 39%;
     right: -82px;
-        &:hover {
-                
-        }
-        &:active {
-            color: #4B9200;
-            border: 1px solid #4B9200;
-        }
-        &:disabled:hover {
-            background-color: #767474;
-        }
+
 }
 
 .cards__arrow_left {
@@ -40,19 +31,18 @@
     position: absolute;
     top: 39%;
     left: -82px;
-    &:hover {
-                
-    }
-    &:active {
-        color: #4B9200;
-        border: 1px solid #4B9200;
-    }
-    &:disabled:hover {
-        background-color: #767474;
-    }
+    transition: fill 500ms ease;
 }
 
+.cards__arrow {
+    transition: all 500ms ease;
+    svg circle{
+        &:hover {
+            fill: #4B9200;
+        }
+}
 
+}
 
 .cards__list {
     display: grid;
