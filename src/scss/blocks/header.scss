@@ -19,17 +19,17 @@
 .header__logo {
     margin-right: 63px;
 }
-.header__list {
+.nav__list {
     display: flex;
 
 }
 
-.header__item_active {
+.nav__item_active {
     color: #F9804B;
 }
-.header__item {
+.nav__item {
     margin-right: 58px;
-    transition:  color .2s ease;
+    transition:  color .1s ease;
     &:last-child {
         margin-right: 0;
     }
@@ -38,6 +38,6 @@
     }
 }
 
-.header__design {
+.nav__design {
     margin-left: auto;
 }

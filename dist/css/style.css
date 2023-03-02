@@ -430,26 +430,26 @@ body {
   margin-right: 63px;
 }
 
-.header__list {
+.nav__list {
   display: flex;
 }
 
-.header__item_active {
+.nav__item_active {
   color: #F9804B;
 }
 
-.header__item {
+.nav__item {
   margin-right: 58px;
-  transition: color 0.2s ease;
+  transition: color 0.1s ease;
 }
-.header__item:last-child {
+.nav__item:last-child {
   margin-right: 0;
 }
-.header__item:hover {
+.nav__item:hover {
   color: #F9804B;
 }
 
-.header__design {
+.nav__design {
   margin-left: auto;
 }
 
@@ -499,14 +499,14 @@ body {
   position: absolute;
   left: calc(50% - 149px + 332px);
   top: 546px;
+  border-radius: 25px;
 }
 
-.button_cycle {
+.button {
   width: 298px;
   height: 54px;
   background-color: #F9804B;
   transition: all 500ms ease;
-  border-radius: 25px;
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;
@@ -514,14 +514,14 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
-.button_cycle:hover {
+.button:hover {
   background-color: #E47209;
 }
-.button_cycle:active {
+.button:active {
   background-color: #4B9200;
   transform: translate(2px, 3px);
 }
-.button_cycle:disabled:hover {
+.button:disabled:hover {
   background-color: #767474;
 }
 
@@ -931,7 +931,6 @@ body {
 
 .footer__conteiner {
   display: flex;
-  justify-content: space-between;
 }
 
 .footer__column1 {
@@ -944,6 +943,12 @@ body {
 
 .footer__column2 {
   align-self: flex-end;
+  margin-left: 98px;
+}
+
+.footer__column3 {
+  position: relative;
+  margin-left: 30px;
 }
 
 .testimonials__button {
@@ -984,7 +989,67 @@ body {
   background-image: url("../img/soc_you.png");
 }
 
+.footer__subscribe {
+  margin-top: 40px;
+  margin-bottom: 14px;
+}
+
+.footer__subscride_title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
 .footer__list {
   display: flex;
   column-gap: 58px;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.footer__form_section {
+  display: flex;
+}
+
+.footer__input {
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 130%;
+  color: #fff;
+  margin-right: 10px;
+  width: 228px;
+  height: 42px;
+  border: 0.7px solid #F9804B;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.footer__input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: #BDBDBD;
+  padding-left: 10px;
+}
+
+.footer_submit {
+  background-color: #F1F3F2;
+  border: 1px solid #4B9200;
+  border-radius: 5px;
+  width: 129px;
+  height: 42px;
+  color: #4B9200;
+}
+
+.footer__development {
+  position: absolute;
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 130%;
+  color: #FFFFFF;
+  bottom: 0;
+  right: 0;
 }

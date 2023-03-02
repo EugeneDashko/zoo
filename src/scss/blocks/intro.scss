@@ -43,14 +43,13 @@
     position: absolute;
     left: calc(50% - 298px/2 + 332px);
     top: 546px;
+    border-radius: 25px;
 }
-.button_cycle {
-
+.button {
     width: 298px;
     height: 54px;
     background-color: #F9804B;
     transition: all 500ms ease;
-    border-radius: 25px;
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
