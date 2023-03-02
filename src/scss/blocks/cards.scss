@@ -31,13 +31,12 @@
     position: absolute;
     top: 39%;
     left: -82px;
-    transition: fill 500ms ease;
 }
 
 .cards__arrow {
     transition: all 500ms ease;
     svg circle{
-        &:hover {
+        &:active {
             fill: #4B9200;
         }
 }
